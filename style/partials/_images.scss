@@ -14,7 +14,7 @@
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("/w3images/parallax2.jpg");
+    background-image: url("../../res/portfolio-img.jpg");
     min-height: 400px;
 }
   
@@ -22,4 +22,10 @@
 .bgimg-3 {
     background-image: url("../../res/contact-img.jpg");
     min-height: 400px;
+}
+
+/* Project images */
+.project-img {
+    width: 100%;
+    min-height: 250px;
 }
