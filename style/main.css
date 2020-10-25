@@ -16,15 +16,29 @@ body, html {
   color: #777;
   line-height: 1.8; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000319}}
+body::-webkit-scrollbar {
+  width: 0.75em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000323}}
+body::-webkit-scrollbar-track {
+  background: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000327}}
+body::-webkit-scrollbar-thumb {
+  background-color: orangered;
+  border-radius: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000331}}
+  body::-webkit-scrollbar-thumb:active {
+    background-color: orange; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000337}}
 .w3-wide {
   letter-spacing: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000341}}
 .w3-hover-opacity {
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/my-portfolio\/style\/partials\/_body\.scss}line{font-family:\0000345}}
 a {
   text-decoration: none; }
 
