@@ -6,9 +6,11 @@
     <title>Andres Salomon - Portfolio</title>
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="https://kit.fontawesome.com/64517a6b26.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="./style/main.css">
+
+    <script src="https://kit.fontawesome.com/64517a6b26.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/index.js" defer></script>
 </head>
 <body>
 
@@ -81,7 +83,7 @@
                 <div class="w3-half w3-center w3-padding-large">
                     <p class="w3-large"><b><i class="fa fa-user w3-margin-right"></i>Andrés Salomón</b></p>
                     <div class="w3-card-4">
-                        <img src="./res/me.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off w3-grayscale" alt="Photo of Andy" style="width:500; height:333;">
+                        <img src="./res/me.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Andy" style="width:500; height:333;">
                     </div>
                 </div>
     
@@ -97,35 +99,65 @@
 
             <!-- Skills -->
             <p class="w3-xlarge w3-center w3-padding-16">What I know:</p>
+            <div class="w3-row">
+                <div class="w3-quarter w3-center w3-padding-large">
+                    <div class="w3-card-2">
+                        <i class="fab fa-html5 fa-10x"></i>
+                        <p class="w3-padding">HTML5</p>
+                    </div>
+                </div>
+                <div class="w3-quarter w3-center w3-padding-large">
+                    <div class="w3-card-2">
+                        <i class="fab fa-css3 fa-10x"></i>
+                        <p class="w3-padding">CSS3</p>
+                    </div>
+                </div>
+                <div class="w3-quarter w3-center w3-padding-large">
+                    <div class="w3-card-2">
+                        <i class="fab fa-sass fa-10x"></i>
+                        <p class="w3-padding">SASS</p>
+                    </div>
+                </div>
+                <div class="w3-quarter w3-center w3-padding-large">
+                    <div class="w3-card-2">
+                        <i class="fab fa-js fa-10x"></i>
+                        <p class="w3-padding">JAVASCRIPT</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="w3-xlarge w3-center w3-padding-16">I also know about CSS3 frameworks like Bootstrap or W3.CSS (my favourite).</p>
 
-            <p class="w3-wide"><i class="fab fa-html5"></i>HTML</p>
-            <div class="w3-light-grey">
-                <div class="w3-container w3-padding-small w3-deep-orange w3-center" style="width:90%">90%</div>
+            <p class="w3-xlarge w3-center w3-padding-16">What I'm learning:</p>
+            <div class="w3-row">
+                <div class="w3-quarter w3-center w3-padding-large">
+                    <div class="w3-card-2">
+                        <i class="fab fa-react fa-10x"></i>
+                        <p class="w3-padding">REACT</p>
+                    </div>
+                </div>
+                <div class="w3-quarter w3-center w3-padding-large">
+                    <div class="w3-card-2">
+                        <i class="fab fa-php fa-10x"></i>
+                        <p class="w3-padding">PHP</p>
+                    </div>
+                </div>
+                <div class="w3-quarter w3-center w3-padding-large">
+                    <div class="w3-card-2">
+                        <i class="fab fa-node fa-10x"></i>
+                        <p class="w3-padding">NODEJS</p>
+                    </div>
+                </div>
+                <div class="w3-quarter w3-center w3-padding-large">
+                    <div class="w3-card-2">
+                        <i class="fa fa-database fa-10x"></i>
+                        <p class="w3-padding">SQL & NOSQL</p>
+                    </div>
+                </div>
             </div>
-            <p class="w3-wide"><i class="fab fa-css3"></i>CSS</p>
-            <div class="w3-light-grey">
-                <div class="w3-container w3-padding-small w3-deep-orange w3-center" style="width:80%">80%</div>
-            </div>
-            <p class="w3-wide"><i class="fab fa-js"></i>JAVASCRIPT</p>
-            <div class="w3-light-grey">
-                <div class="w3-container w3-padding-small w3-amber w3-center" style="width:60%">60%</div>
-            </div>
-            <p class="w3-wide"><i class="fab fa-php"></i>PHP</p>
-            <div class="w3-light-grey">
-                <div class="w3-container w3-padding-small w3-amber w3-center" style="width:50%">50%</div>
-            </div>
-            <p class="w3-wide"><i class="fab fa-java"></i>JAVA</p>
-            <div class="w3-light-grey">
-                <div class="w3-container w3-padding-small w3-deep-purple w3-center" style="width:40%">40%</div>
-            </div>
-            <p class="w3-wide"><i class="far fa-file-code"></i>VBA</p>
-            <div class="w3-light-grey">
-                <div class="w3-container w3-padding-small w3-deep-orange w3-center" style="width:80%">80%</div>
-            </div>
-            <p class="w3-wide"><i class="fas fa-database"></i>SQL</p>
-            <div class="w3-light-grey">
-                <div class="w3-container w3-padding-small w3-deep-purple w3-center" style="width:35%">35%</div>
-            </div>
+
+            <p class="w3-xlarge w3-center w3-padding-16">I have to say that I'm in constant learning about web and other technologies and I'm looking to improve my skills every time.</p>
+
         </section>
         
         <!-- Portfolio image -->
@@ -157,7 +189,7 @@
             
                 <div class="w3-col m4">
                     <div class="w3-display-container w3-hover-opacity w3-margin">
-                        <img src="./res/landing-page-podcast-channel.png" class="project-img" alt="Upcoming">
+                        <img src="./res/landing-page-podcast-channel.png" class="project-img" alt="Landing Page - Podcast Channel">
                         <div class="w3-display-middle w3-display-hover">
                             <p class="w3-small w3-deep-orange w3-text-white w3-panel">Landing page - Podcast Channel</p>
                             <p class="w3-small w3-animate-zoom w3-black w3-text-white"><i class="fab fa-html5"></i> HTML</p>
@@ -170,9 +202,13 @@
             
                 <div class="w3-col m4">
                     <div class="w3-display-container w3-hover-opacity w3-margin">
-                        <img src="./res/black-image.jpg" class="project-img" alt="Upcoming">
+                        <img src="./res/maradona-translator.png" class="project-img" alt="Maradona Translator">
                         <div class="w3-display-middle w3-display-hover">
-                            <p class="w3-small w3-deep-orange w3-text-white w3-panel">Upcoming!</p>
+                            <p class="w3-small w3-deep-orange w3-text-white w3-panel">Web App - Maradona Translator</p>
+                            <p class="w3-small w3-animate-zoom w3-black w3-text-white"><i class="fab fa-css3"></i> CSS &   <i class="fab fa-sass"></i></p>
+                            <p class="w3-small w3-animate-zoom w3-black w3-text-white"><i class="fab fa-js"></i> JavaScript</p>
+                            <p class="w3-small w3-animate-zoom w3-black w3-text-white"><i class="fas fa-mobile-alt"></i> Responsive</p>
+                            <button class="w3-button w3-amber w3-small w3-animate-zoom"><a href="https://maradona-translator.netlify.app/" target="_blank"><strong>Have fun!</strong></a></button>
                         </div>
                     </div>    
                 </div>
@@ -259,11 +295,6 @@
         <p class="w3-wide w3-hover-text-amber">Andres Salomon</p>
         <p class="w3-wide w3-hover-text-amber">2020</p>
     </footer>
-
-    <!-- SCRIPTS -->
-    <script type="text/javascript" src="./js/index.js"></script>
+    
 </body>
-
-
-
 </html>
