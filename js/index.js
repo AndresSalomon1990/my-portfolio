@@ -1,8 +1,8 @@
 // Change style of Navbar on scroll
-window.onscroll = function() {changeNavStyle()};
+window.onscroll = function() { changeNavStyle(); };
 
 const changeNavStyle = () => {
-    let navbar = document.getElementById("myNavbar");
+    const navbar = document.getElementById("myNavbar");
 
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-black";
